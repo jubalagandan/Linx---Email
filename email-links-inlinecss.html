@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+
+
+
+body {
+	margin: 0!important;
+	padding: 15px;
+	background-color: #eee;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #888;
+}
+.wrapper {
+	width: 100%;
+	table-layout: fixed;
+}
+.wrapper-inner {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+    background-color: #fff;
+}
+
+
+table {
+	border-spacing: 0;
+	color: #727f80;
+}
+
+td {
+    padding: 0;
+}
+
+p {
+    margin:0;
+}
+
+a {
+    color: #F1F1F1;
+    text-decoration: none;
+}
+
+.main-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+.inner-td {
+    padding: 10px 20px;
+}
+
+.content {
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+
+
+/*--- Start Header Section --*/
+
+
+.outer-table-1 {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 22px auto;
+    margin-bottom: 0px;
+    padding: 0;
+    height: 200px;
+    background-image: linear-gradient(#707070, #707070);
+}
+
+
+
+.outer-table-1 .background {
+    display: block;
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+
+.svg-header {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+  /* set height to pixels if you want angle to change with screen width */
+}
+
+.header {
+    display: block;
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.header p {
+    text-align: center;
+    color: #FFF!important;
+    font-size: 14px;
+    line-height: 1.3em;
+    box-sizing: border-box;
+    letter-spacing: 0.3px;
+}
+
+.header p.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.05em;
+    letter-spacing: -1px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.header p.sub-titulo {
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+
+/*--- Start One Column Sections --*/
+
+
+.main-table tr:first-child .inner-td {
+    padding-top: 0;
+}
+
+
+.h2 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.one-column .inner-td {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+/*--- Start Two Column Sections --*/
+.two-column {
+    text-align: center;
+    font-size: 0;
+    padding: 5px 0 10px 0;
+}
+.two-column .section {
+    width: 100%;
+    max-width: 270px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.two-column .section:first-child .inner-td {
+    padding: 10px 21px 10px 25px;
+}
+
+.two-column .section:nth-child(2) .inner-td {
+    padding: 10px 25px 10px 21px;
+}
+
+.two-column .content {
+    font-size: 16px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+.two-column img {
+    display: block;
+    width: 100%;
+    max-width: 270px;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid #707070;
+}
+
+
+.two-column .content p {
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.two-column .content p.h3 {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.two-column .content p.destaque {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+.button-holder {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px;
+    color: #888;
+    border: 1px solid #707070;
+}
+
+
+/*--- Start One Column Section Button --*/
+
+
+.one-column .section {
+    display: block;
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto; 
+    padding: 0 25px;
+    box-sizing: border-box;   
+}
+
+
+.one-column .ajust-to-two {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.button-holder-center {
+    display: block;
+    width: 85%;
+    min-width: 280px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.btn-thick {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 4px;
+    color: #888;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+}
+
+
+
+/*--- Start Footer Section --*/
+
+
+
+.outer-table-2 {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 22px auto;
+    padding: 0;
+    height: 158px;
+    background-image: linear-gradient(#707070, #707070);
+}
+
+
+
+.outer-table-2 .background {
+    display: block;
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+
+.svg-footer {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 42px;
+  /* set height to pixels if you want angle to change with screen width */
+}
+
+.footer {
+    display: block;
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+p.footer {
+    text-align: center;
+    color: #FFF!important;
+    font-size: 14px;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    letter-spacing: 0.3px;
+    margin-top: 40px;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+
+
+.two-column .section {
+	width: 100% !important;
+	max-width: 100% !important;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.two-column img {
+	width: 100% !important;
+ 	height: auto !important;
+}
+img.img-responsive {
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+}
+.content {
+	width: 100%;
+	padding-top:0px !important;
+}
+}
+</style>
+
+
+
+
+ </head>
+<body style="padding: 15px;background-color: #eee;font-family: Helvetica, Arial, sans-serif;font-style: normal;font-weight: 400;color: #888;margin: 0!important;">
+    <div class="wrapper" style="width: 100%;table-layout: fixed;">
+    	<div class="wrapper-inner" style="width: 100%;max-width: 600px;margin: 0 auto;background-color: #fff;">
+    		
+             <table class="outer-table-1" style="border-spacing: 0;color: #727f80;position: relative;width: 100%;max-width: 600px;margin: 22px auto;margin-bottom: 0px;padding: 0;height: 200px;background-image: linear-gradient(#707070, #707070);">
+                <tr>
+                    <td class="one-column" style="padding: 0;">
+                        <div class="background" style="display: block;width: 100%;margin: 0;padding: 0;box-sizing: border-box;">
+                           <table width="100%" style="border-spacing: 0;color: #727f80;">
+                            <tr>
+                                <td class="header" style="padding: 0;display: block;width: 100%;max-width: 380px;margin: 0 auto;color: #FFF;">
+                                    <p class="sub-titulo" style="margin: 0;text-align: center;font-size: 20px;line-height: 1.2em;box-sizing: border-box;letter-spacing: 0.3px;color: #FFF!important;">uma seleção de produtos</p>
+                                    <p class="titulo" style="margin: 0;text-align: center;font-size: 40px;line-height: 1.05em;box-sizing: border-box;letter-spacing: -1px;font-weight: bold;margin-top: 10px;margin-bottom: 10px;color: #FFF!important;">especial para você</p>
+                                    <p style="margin: 0;text-align: center;font-size: 14px;line-height: 1.3em;box-sizing: border-box;letter-spacing: 0.3px;color: #FFF!important;">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
+                                </td>
+                            </tr>
+                           </table>
+
+                           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" class="svg-header" style="position: absolute;bottom: 0;width: 100%;height: 35px;">
+                            <polygon fill="white" points="0 0,100 100,0 100,100"></polygon>
+                           </svg>
+                        </div>
+                    </td>
+                </tr>
+            </table> <!--- End Main Table -->
+
+
+
+            <table class="main-table" style="border-spacing: 0;color: #727f80;width: 100%;max-width: 600px;margin: 0 auto;background-color: #FFF;">
+
+
+    			<tr>
+    				<td class="one-column" style="padding: 0;">
+    					<table width="100%" style="border-spacing: 0;color: #727f80;">
+    						<tr>
+    							<td class="inner-td" style="padding: 10px 20px;font-size: 12px;line-height: 20px;text-align: justify;">
+    								<p class="h2" style="margin: 0;text-align: left;font-size: 20px;line-height: 45px;">Olá, Fulano</p>
+    								<p style="margin: 0;">Fizemos uma lista especial de produtos apenas para você. Isso mesmo: nesta lista temos só produtos que você pode gostar. Seu amigo Ciclano lhe recomendou essa lista especial. Olha só:</p>
+    							</td>
+    						</tr>
+    					</table>
+    				</td>
+    			</tr> <!--- End Heading, Paragraph & Button Section -->
+
+
+
+    			<tr>
+    				<td class="two-column" style="padding: 5px 0 10px 0;text-align: center;font-size: 0;">
+                        <table width="100%" style="border-spacing: 0;color: #727f80;">
+                        <tr>
+                        <td class="inner-td" style="padding: 10px 20px;">
+    					<div class="section" style="width: 100%;max-width: 270px;display: inline-block;vertical-align: top;padding: 0;box-sizing: border-box;">
+    						<table width="100%" style="border-spacing: 0;color: #727f80;">
+    							<tr>
+    								<td class="inner-td" style="padding: 10px 20px;">
+    									<table class="content" style="border-spacing: 0;color: #727f80;width: 100%;padding-top: 20px;font-size: 16px;line-height: 1.2em;text-align: left;">
+    										<tr>
+    											<td style="padding: 0;">
+    												<img src="http://placehold.it/200x150" class="img-responsive" style="display: block;width: 100%;max-width: 270px;margin: 0 auto;height: auto;border: 1px solid #707070;">
+    											</td>
+    										</tr>
+    										<tr>
+    											<td class="text" style="padding: 0;">
+                                                    <p class="h3" style="margin: 0;margin-bottom: 8px;font-size: 14px;margin-top: 8px;">Nome do produto</p>
+    												<p style="margin: 0;margin-bottom: 8px;font-size: 12px;">Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</p>
+                                                    <p style="margin: 0;margin-bottom: 8px;font-size: 12px;">De: R$23,99</p>
+                                                    <p class="destaque" style="margin: 0;margin-bottom: 8px;font-size: 16px;font-weight: bold;">Por: R$19,99</p>
+                                                    <p style="margin: 0;margin-bottom: 8px;font-size: 12px;">ou 2x de R$9,99</p>
+
+                                                    <p class="button-holder" style="margin: 20px auto;display: block;width: 100%;text-align: center;box-sizing: border-box;margin-bottom: 8px;font-size: 12px;">
+                                                        <a class="btn" href="#" style="color: #888;text-decoration: none;display: block;box-sizing: border-box;width: 100%;font-size: 16px;padding: 6px;border-radius: 4px;border: 1px solid #707070;">Comprar</a>
+                                                    </p>
+    											</td>
+    										</tr>
+    									</table>
+    								</td>
+    							</tr>
+    						</table>
+    					</div> <!--- End First Column of Two Columns -->
+    					<div class="section" style="width: 100%;max-width: 270px;display: inline-block;vertical-align: top;padding: 0;box-sizing: border-box;">
+    						<table width="100%" style="border-spacing: 0;color: #727f80;">
+    							<tr>
+    								<td class="inner-td" style="padding: 10px 25px 10px 21px;">
+    									<table class="content cnt-img" style="border-spacing: 0;color: #727f80;width: 100%;padding-top: 20px;font-size: 16px;line-height: 1.2em;text-align: left;">
+    										<tr>
+    											<td style="padding: 0;">
+    												<img src="http://placehold.it/200x150" class="img-responsive" style="display: block;width: 100%;max-width: 270px;margin: 0 auto;height: auto;border: 1px solid #707070;">
+    											</td>
+    										</tr>
+    										<tr>
+    											<td class="text" style="padding: 0;">
+    										        <p class="h3" style="margin: 0;margin-bottom: 8px;font-size: 14px;margin-top: 8px;">Nome do produto</p>
+                                                    <p style="margin: 0;margin-bottom: 8px;font-size: 12px;">Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</p>
+                                                    <p style="margin: 0;margin-bottom: 8px;font-size: 12px;">De: R$23,99</p>
+                                                    <p class="destaque" style="margin: 0;margin-bottom: 8px;font-size: 16px;font-weight: bold;">Por: R$19,99</p>
+                                                    <p style="margin: 0;margin-bottom: 8px;font-size: 12px;">ou 2x de R$9,99</p>
+
+                                                    <p class="button-holder" style="margin: 20px auto;display: block;width: 100%;text-align: center;box-sizing: border-box;margin-bottom: 8px;font-size: 12px;">
+                                                        <a class="btn" href="#" style="color: #888;text-decoration: none;display: block;box-sizing: border-box;width: 100%;font-size: 16px;padding: 6px;border-radius: 4px;border: 1px solid #707070;">Comprar</a>
+                                                    </p>
+    											</td>
+    										</tr>
+    									</table>
+    								</td>
+    							</tr>
+    						</table>
+    					</div> <!--- End Second Column of Two Columns -->
+                        </td>
+                        </tr>
+                        </table>
+    				</td>
+    			</tr> <!--- End Two Column Section -->
+                
+
+
+                <tr>
+                   <td class="one-column" style="padding: 0;">
+                        <table width="100%" style="border-spacing: 0;color: #727f80;">
+                            <tr>
+                                <td class="inner-td" style="padding: 10px 20px;font-size: 12px;line-height: 20px;text-align: justify;">
+                                    <div class="section" style="display: block;width: 100%;max-width: 540px;margin: 0 auto;padding: 0 25px;box-sizing: border-box;">
+                                    <table width="100%" style="border-spacing: 0;color: #727f80;">
+                                        <tr>
+                                            <td class="ajust-to-two" style="padding: 0;margin-left: 25px;margin-right: 25px;">
+                                                <p class="button-holder-center" style="margin: 20px auto;display: block;width: 85%;min-width: 280px;text-align: center;">
+                                                    <a class="btn-thick" href="#" style="color: #888;text-decoration: none;display: block;width: 100%;font-size: 16px;padding: 9px;border-radius: 4px;border: 1px solid #707070;box-sizing: border-box;">Tem muito mais aqui. Vem ver!</a>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                        </table>
+                    </td> 
+                </tr>
+            </table> <!--- End Main Table -->
+
+           
+
+                            
+
+
+            
+            <table class="outer-table-2" style="border-spacing: 0;color: #727f80;position: relative;width: 100%;max-width: 600px;margin: 22px auto;padding: 0;height: 158px;background-image: linear-gradient(#707070, #707070);">
+    			<tr>
+    				<td class="one-column" style="padding: 0;">
+                        <div class="background" style="display: block;width: 100%;margin: 0;padding: 0;box-sizing: border-box;">
+    					   <table width="100%" style="border-spacing: 0;color: #727f80;">
+    						<tr>
+    							<td class="footer" style="padding: 0;display: block;width: 100%;max-width: 380px;margin: 0 auto;color: #FFF;">
+    								<p class="footer" style="margin: 0 auto;display: block;width: 100%;max-width: 380px;color: #FFF!important;text-align: center;font-size: 14px;line-height: 1.5em;box-sizing: border-box;letter-spacing: 0.3px;margin-top: 40px;">Testando suas habilidades em HTML, CSS e JS.<br>Linx Impulse<br><a href="index.html#" style="color: #F1F1F1;text-decoration: none;">2019</a></p>
+    							</td>
+    						</tr>
+    					   </table>
+
+                           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" class="svg-footer" style="position: absolute;top: 0;width: 100%;height: 42px;">
+                            <polygon fill="white" points="100,0 0,100 0,0"></polygon>
+                           </svg>
+                        </div>
+    				</td>
+    			</tr>
+    		</table> <!--- End Main Table -->
+
+
+
+            
+    	</div> <!--- End Wrapper Inner -->
+    </div> <!--- End Wrapper -->
+    <br>
+</body>
+</html>
